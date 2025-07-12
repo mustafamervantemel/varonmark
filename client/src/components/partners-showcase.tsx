@@ -17,7 +17,7 @@ export default function PartnersShowcase() {
       brandName: "MiraGiftShop",
       brandLogo: "/brand-logo/miragift.png",
       platformType: "etsy",
-      platformLogo: "/src/media/icons8-etsy-color-32.png",
+      platformLogo: "/media/icons8-etsy-color-32.png",
       url: "https://www.etsy.com/shop/MiraGiftShop?ref=shop-header-name&listing_id=1710484991&from_page=listing",
       description: "Kişiye Özel Hediye Mağazası - Etsy'de %80 satış artışı"
     },
@@ -26,7 +26,7 @@ export default function PartnersShowcase() {
       brandName: "BARYADESIGN",
       brandLogo: "/src/brand/BARYADESIGN.png",
       platformType: "etsy",
-      platformLogo: "/src/media/icons8-etsy-color-32.png",
+      platformLogo: "/media/icons8-etsy-color-32.png",
       url: "https://www.etsy.com/shop/BARYADESIGN?ref=shop-header-name&listing_id=1174946911&from_page=listing",
       description: "Değerli Taş Takıcısı - Etsy'de mağaza optimizasyonu"
     },
@@ -35,7 +35,7 @@ export default function PartnersShowcase() {
       brandName: "Popizone",
       brandLogo: "",
       platformType: "trendyol",
-      platformLogo: "/src/media/trendyol.jpeg",
+      platformLogo: "/media/trendyol.jpeg",
       url: "https://trendyol.com/magaza/fashionstore",
       description: "E-Ticaret Mağazası - Trendyol'da %250 satış artışı"
     },
@@ -44,7 +44,7 @@ export default function PartnersShowcase() {
       brandName: "Zeysel Store",
       brandLogo: "/src/brand/ZeyselStore.png",
       platformType: "trendyol",
-      platformLogo: "/src/media/trendyol.jpeg",
+      platformLogo: "/media/trendyol.jpeg",
       url: "https://www.trendyol.com/magaza/zeysel-store-m-1108376?sst=0",
       description: "E-Ticaret Mağazası - Trendyol SEO ve reklam hizmetleri"
     },
@@ -53,7 +53,7 @@ export default function PartnersShowcase() {
       brandName: "Ada Smile Studio",
       brandLogo: "/src/brand/AdaSmileStudio.png",
       platformType: "instagram",
-      platformLogo: "/src/media/icons8-instagram-3d-fluency-32.png",
+      platformLogo: "/media/icons8-instagram-3d-fluency-32.png",
       url: "https://instagram.com/beautybrand",
       description: "Diş Hekimliği Kliniği - Instagram'da %50 müşteri artışı"
     },
@@ -62,7 +62,7 @@ export default function PartnersShowcase() {
       brandName: "Popizone",
       brandLogo: "/src/brand/Popizone.png",
       platformType: "instagram",
-      platformLogo: "/src/media/icons8-instagram-3d-fluency-32.png",
+      platformLogo: "/media/icons8-instagram-3d-fluency-32.png",
       url: "https://www.instagram.com/popizone_/",
       description: "E-Ticaret Mağazası - Instagram içerik ve büyüme stratejisi"
     },
@@ -71,7 +71,7 @@ export default function PartnersShowcase() {
       brandName: "Ubuntu Yatırım",
       brandLogo: "/src/brand/UbuntuYatirim.png",
       platformType: "website",
-      platformLogo: "/src/media/icons8-meta-windows-11-color-32.png",
+      platformLogo: "/media/icons8-meta-windows-11-color-32.png",
       url: "https://www.ubuntuyatirim.com",
       description: "Finansal Hizmetler - Meta Ads ile %80 müşteri artışı"
     },
@@ -80,7 +80,7 @@ export default function PartnersShowcase() {
       brandName: "Ada Smile Studio",
       brandLogo: "/src/brand/AdaSmileStudio.png",
       platformType: "website",
-      platformLogo: "/src/media/icons8-meta-windows-11-color-32.png",
+      platformLogo: "/media/icons8-meta-windows-11-color-32.png",
       url: "https://www.adasmilestudio.com",
       description: "Diş Hekimliği Kliniği - Google & Meta Ads kampanyaları"
     }

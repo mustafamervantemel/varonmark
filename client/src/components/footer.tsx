@@ -41,7 +41,7 @@ export default function Footer() {
             <div className="lg:col-span-1">
               <div className="mb-6">
                 <img 
-                  src="/src/media/VARONMARK-2.svg" 
+                  src="/media/VARONMARK-2.svg" 
                   alt="Varonmark Logo" 
                   className="h-20 w-auto"
                 />

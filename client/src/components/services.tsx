@@ -9,7 +9,7 @@ export default function Services() {
 
   const services = [
     {
-      icon: "/src/media/icons8-etsy-color-120.png",
+      icon: "/media/icons8-etsy-color-120.png",
       title: "Etsy Hesap Açılışı",
       description: "Profesyonel Etsy mağazanız için tam kurulum ve optimizasyon",
       price: "800₺",
@@ -24,7 +24,7 @@ export default function Services() {
       gradient: "from-orange-500 to-red-500"
     },
     {
-      icon: "/src/media/icons8-etsy-color-120.png",
+      icon: "/media/icons8-etsy-color-120.png",
       title: "Etsy Mağaza Yardımcısı",
       description: "Aylık mağaza yönetimi ve sürekli optimizasyon hizmetleri",
       price: "5.000₺",
@@ -39,7 +39,7 @@ export default function Services() {
       gradient: "from-orange-500 to-red-500"
     },
     {
-      icon: "/src/media/icons8-instagram-3d-fluency-120.png",
+      icon: "/media/icons8-instagram-3d-fluency-120.png",
       title: "Sosyal Medya Yönetimi",
       description: "Instagram, TikTok ve X için kapsamlı sosyal medya yönetimi",
       price: "7.500₺",
@@ -54,7 +54,7 @@ export default function Services() {
       gradient: "from-pink-500 to-purple-500"
     },
     {
-      icon: "/src/media/icons8-meta-windows-11-color-120.png",
+      icon: "/media/icons8-meta-windows-11-color-120.png",
       title: "Reklamcılık Hizmetleri",
       description: "Google & Meta Ads ile etkili reklam kampanyaları",
       price: "3.750₺",
@@ -151,7 +151,7 @@ export default function Services() {
                 <div className="relative z-10">
                   <div className="flex items-center justify-center mb-8">
                     <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mr-6 backdrop-blur-sm">
-                      <img src="/src/media/trendyol.jpeg" alt="Trendyol" className="w-12 h-12 rounded-lg" />
+                      <img src="/media/trendyol.jpeg" alt="Trendyol" className="w-12 h-12 rounded-lg" />
                     </div>
                     <div>
                       <h3 className="text-3xl md:text-4xl font-bold mb-2">Trendyol Hizmetleri</h3>

@@ -125,28 +125,28 @@ export default function Hero() {
                 <div className="grid grid-cols-2 gap-4 mb-6">
                   <div className="bg-white/10 rounded-2xl p-4 text-center border border-white/10">
                     <div className="mb-2">
-                      <img src="/src/media/icons8-etsy-color-32.png" alt="Etsy" className="w-8 h-8 mx-auto" />
+                      <img src="/media/icons8-etsy-color-32.png" alt="Etsy" className="w-8 h-8 mx-auto" />
                     </div>
                     <div className="text-white font-semibold text-sm">Etsy</div>
                     <div className="text-purple-200 text-xs"></div>
                   </div>
                   <div className="bg-white/10 rounded-2xl p-4 text-center border border-white/10">
                     <div className="mb-2">
-                      <img src="/src/media/trendyol.jpeg" alt="Trendyol" className="w-8 h-8 mx-auto rounded" />
+                      <img src="/media/trendyol.jpeg" alt="Trendyol" className="w-8 h-8 mx-auto rounded" />
                     </div>
                     <div className="text-white font-semibold text-sm">Trendyol</div>
                     <div className="text-purple-200 text-xs"></div>
                   </div>
                   <div className="bg-white/10 rounded-2xl p-4 text-center border border-white/10">
                     <div className="mb-2">
-                      <img src="/src/media/icons8-instagram-3d-fluency-32.png" alt="Social Media" className="w-8 h-8 mx-auto" />
+                      <img src="/media/icons8-instagram-3d-fluency-32.png" alt="Social Media" className="w-8 h-8 mx-auto" />
                     </div>
                     <div className="text-white font-semibold text-sm">Sosyal Medya</div>
                     <div className="text-purple-200 text-xs">Instagram & TikTok</div>
                   </div>
                   <div className="bg-white/10 rounded-2xl p-4 text-center border border-white/10">
                     <div className="mb-2">
-                      <img src="/src/media/icons8-meta-windows-11-color-32.png" alt="Ads" className="w-8 h-8 mx-auto" />
+                      <img src="/media/icons8-meta-windows-11-color-32.png" alt="Ads" className="w-8 h-8 mx-auto" />
                     </div>
                     <div className="text-white font-semibold text-sm">Reklamcılık</div>
                     <div className="text-purple-200 text-xs">Google & Meta</div>
@@ -193,13 +193,13 @@ export default function Hero() {
           <div className="flex justify-center items-center space-x-8 opacity-80 flex-wrap gap-6">
             <div className="bg-white/10 backdrop-blur-sm rounded-xl px-4 py-2 border border-white/20">
               <div className="text-white font-semibold flex items-center text-sm">
-                <img src="/src/media/icons8-etsy-color-16.png" alt="Etsy" className="w-4 h-4 mr-2" />
+                <img src="/media/icons8-etsy-color-16.png" alt="Etsy" className="w-4 h-4 mr-2" />
                 Etsy 
               </div>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-xl px-4 py-2 border border-white/20">
               <div className="text-white font-semibold flex items-center text-sm">
-                <img src="/src/media/trendyol.jpeg" alt="Trendyol" className="w-4 h-4 mr-2 rounded" />
+                <img src="/media/trendyol.jpeg" alt="Trendyol" className="w-4 h-4 mr-2 rounded" />
                 Trendyol 
               </div>
             </div>
@@ -211,7 +211,7 @@ export default function Hero() {
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-xl px-4 py-2 border border-white/20">
               <div className="text-white font-semibold flex items-center text-sm">
-                <img src="/src/media/icons8-meta-windows-11-color-16.png" alt="Meta" className="w-4 h-4 mr-2" />
+                <img src="/media/icons8-meta-windows-11-color-16.png" alt="Meta" className="w-4 h-4 mr-2" />
                 Meta 
               </div>
             </div>

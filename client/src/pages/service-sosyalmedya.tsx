@@ -12,7 +12,7 @@ export default function SosyalMedyaPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <div className="flex items-center justify-center mb-4">
-                <img src="/src/media/icons8-instagram-3d-fluency-96.png" alt="Sosyal Medya" className="w-16 h-16 mr-4" />
+                <img src="/media/icons8-instagram-3d-fluency-96.png" alt="Sosyal Medya" className="w-16 h-16 mr-4" />
                 <h1 className="text-4xl font-bold">Sosyal Medya Yöneticiliği</h1>
               </div>
               <p className="text-xl text-purple-100 max-w-3xl mx-auto">

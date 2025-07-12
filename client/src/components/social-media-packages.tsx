@@ -13,7 +13,7 @@ export default function SocialMediaPackages() {
         <div className="bg-gradient-to-br from-pink-50 to-purple-50 rounded-3xl p-8 border-2 border-pink-200 hover:shadow-xl transition-all">
           <div className="text-center mb-6">
             <div className="w-16 h-16 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
-              <img src="/src/media/icons8-instagram-3d-fluency-32.png" alt="Instagram" className="w-10 h-10 rounded-lg" />
+              <img src="/media/icons8-instagram-3d-fluency-32.png" alt="Instagram" className="w-10 h-10 rounded-lg" />
             </div>
             <h3 className="text-2xl font-bold text-pink-800 mb-2">Sosyal Medya Kurulum Desteği</h3>
             <div className="text-4xl font-bold text-pink-600 mb-2">800₺</div>
@@ -101,7 +101,7 @@ export default function SocialMediaPackages() {
 
           <div className="text-center mb-6 mt-4">
             <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-indigo-500 rounded-full flex items-center justify-center mx-auto mb-4">
-              <img src="/src/media/icons8-instagram-3d-fluency-32.png" alt="Instagram" className="w-10 h-10 rounded-lg" />
+              <img src="/media/icons8-instagram-3d-fluency-32.png" alt="Instagram" className="w-10 h-10 rounded-lg" />
             </div>
             <h3 className="text-2xl font-bold text-purple-800 mb-2">Sosyal Medya Yönetim Desteği</h3>
             <div className="text-4xl font-bold text-purple-600 mb-2">5.000₺</div>

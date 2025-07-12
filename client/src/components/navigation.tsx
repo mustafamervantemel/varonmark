@@ -42,7 +42,7 @@ export default function Navigation() {
               className="flex items-center hover:opacity-80 transition-opacity"
             >
               <img 
-                src="/src/media/VARONMARK-2.svg" 
+                src="/media/VARONMARK-2.svg" 
                 alt="Varonmark Logo" 
                 className="h-28 md:h-24 w-auto"
               />

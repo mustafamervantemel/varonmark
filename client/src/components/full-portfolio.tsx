@@ -184,19 +184,19 @@ export default function FullPortfolio() {
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-white/10 rounded-lg p-4 text-center">
-                  <img src="/src/media/icons8-etsy-color-32.png" alt="Etsy" className="w-8 h-8 mx-auto mb-2" />
+                  <img src="/media/icons8-etsy-color-32.png" alt="Etsy" className="w-8 h-8 mx-auto mb-2" />
                   <div className="text-sm font-semibold">Etsy</div>
                 </div>
                 <div className="bg-white/10 rounded-lg p-4 text-center">
-                  <img src="/src/media/trendyol.jpeg" alt="Trendyol" className="w-8 h-8 mx-auto mb-2 rounded" />
+                  <img src="/media/trendyol.jpeg" alt="Trendyol" className="w-8 h-8 mx-auto mb-2 rounded" />
                   <div className="text-sm font-semibold">Trendyol</div>
                 </div>
                 <div className="bg-white/10 rounded-lg p-4 text-center">
-                  <img src="/src/media/icons8-instagram-3d-fluency-32.png" alt="Instagram" className="w-8 h-8 mx-auto mb-2" />
+                  <img src="/media/icons8-instagram-3d-fluency-32.png" alt="Instagram" className="w-8 h-8 mx-auto mb-2" />
                   <div className="text-sm font-semibold">Instagram</div>
                 </div>
                 <div className="bg-white/10 rounded-lg p-4 text-center">
-                  <img src="/src/media/icons8-google-ads-color-32.png" alt="Google Ads" className="w-8 h-8 mx-auto mb-2" />
+                  <img src="/media/icons8-google-ads-color-32.png" alt="Google Ads" className="w-8 h-8 mx-auto mb-2" />
                   <div className="text-sm font-semibold">Google Ads</div>
                 </div>
               </div>

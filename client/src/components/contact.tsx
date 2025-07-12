@@ -87,7 +87,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="font-medium">Telefon</div>
-                  <div className="text-purple-200">+90 (555) 123 45 67</div>
+                  <div className="text-purple-200">+90 530 562 91 26</div>
                 </div>
               </div>
               

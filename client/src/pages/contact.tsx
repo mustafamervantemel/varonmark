@@ -67,7 +67,7 @@ export default function ContactPage() {
 
       // Ana bildirim gönder
       await emailjs.send(
-        'Ad2Y1NjtyFoHerY3A', // Service ID (Public Key)
+        'service_mu608rc', // Service ID
         'template_0q1xh9y', // Template ID - Size giden bildirim
         notificationParams,
         'Ad2Y1NjtyFoHerY3A' // Public Key
@@ -75,7 +75,7 @@ export default function ContactPage() {
 
       // Müşteriye otomatik yanıt gönder
       await emailjs.send(
-        'Ad2Y1NjtyFoHerY3A', // Service ID (Public Key)
+        'service_mu608rc', // Service ID
         'template_cmhrwjg', // Template ID - Müşteriye giden auto-reply
         autoReplyParams,
         'Ad2Y1NjtyFoHerY3A' // Public Key

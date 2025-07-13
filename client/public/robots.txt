@@ -1,0 +1,32 @@
+User-agent: *
+Allow: /
+
+# Öncelikli sayfalar
+Allow: /
+Allow: /services
+Allow: /service-trendyol
+Allow: /service-etsy
+Allow: /service-reklamcilik
+Allow: /service-sosyalmedya
+Allow: /portfolio
+Allow: /about
+Allow: /contact
+Allow: /nasil-calisiyoruz
+
+# Static dosyalar
+Allow: /media/
+Allow: /brand-logo/
+Allow: *.css
+Allow: *.js
+Allow: *.png
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.svg
+Allow: *.webp
+Allow: *.ico
+
+# Sitemap konumu
+Sitemap: https://www.varonmark.com/sitemap.xml
+
+# Crawl oranı (Googlebot için)
+Crawl-delay: 1

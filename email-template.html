@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varonmark - Yeni İletişim Talebi</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8fafc;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .header p {
+            margin: 10px 0 0 0;
+            opacity: 0.9;
+            font-size: 14px;
+        }
+        .content {
+            padding: 30px;
+        }
+        .message-box {
+            background-color: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .contact-info {
+            background: linear-gradient(135deg, #f3e8ff 0%, #e9d5ff 100%);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+        }
+        .contact-item strong {
+            color: #7c3aed;
+            min-width: 80px;
+        }
+        .message-content {
+            background-color: white;
+            border-left: 4px solid #7c3aed;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .footer {
+            background-color: #f1f5f9;
+            padding: 20px 30px;
+            text-align: center;
+            font-size: 12px;
+            color: #64748b;
+        }
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .time-stamp {
+            text-align: center;
+            font-size: 12px;
+            color: #94a3b8;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #e2e8f0;
+        }
+        @media (max-width: 600px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+            .container {
+                margin: 10px;
+                border-radius: 8px;
+            }
+            .header, .content, .footer {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">VARONMARK</div>
+            <h1>Yeni İletişim Talebi</h1>
+            <p>Dijital Pazarlama Uzmanları</p>
+        </div>
+        
+        <div class="content">
+            <p>Merhaba,</p>
+            <p><strong>{{name}}</strong> adlı kişiden yeni bir iletişim talebi alındı. En kısa sürede yanıt verilmesi gerekiyor.</p>
+            
+            <div class="contact-info">
+                <h3 style="margin: 0 0 15px 0; color: #7c3aed;">📋 İletişim Bilgileri</h3>
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <strong>Ad Soyad:</strong>
+                        <span>{{name}}</span>
+                    </div>
+                    <div class="contact-item">
+                        <strong>E-posta:</strong>
+                        <span>{{email}}</span>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Telefon:</strong>
+                        <span>{{phone}}</span>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Hizmet:</strong>
+                        <span>{{service}}</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="message-box">
+                <h3 style="margin: 0 0 15px 0; color: #7c3aed;">💬 Mesaj İçeriği</h3>
+                <div class="message-content">
+                    {{message}}
+                </div>
+            </div>
+            
+            <div class="time-stamp">
+                <strong>Gönderim Zamanı:</strong> {{time}}
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>Varonmark</strong> - Dijital Pazarlama Uzmanları</p>
+            <p>Etsy • Trendyol • Sosyal Medya • Reklamcılık</p>
+            <p>📧 info@varonmark.com | 📞 +90 530 562 91 26</p>
+        </div>
+    </div>
+</body>
+</html> 

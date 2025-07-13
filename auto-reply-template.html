@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varonmark - Talebiniz Alındı</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8fafc;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .header p {
+            margin: 10px 0 0 0;
+            opacity: 0.9;
+            font-size: 14px;
+        }
+        .content {
+            padding: 30px;
+        }
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .divider {
+            border-top: 1px solid #e2e8f0;
+            margin: 20px 0;
+            padding-top: 20px;
+        }
+        .highlight-box {
+            background: linear-gradient(135deg, #f3e8ff 0%, #e9d5ff 100%);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 4px solid #7c3aed;
+        }
+        .footer {
+            background-color: #f1f5f9;
+            padding: 20px 30px;
+            text-align: center;
+            font-size: 12px;
+            color: #64748b;
+        }
+        .contact-info {
+            background-color: #f8fafc;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        @media (max-width: 600px) {
+            .container {
+                margin: 10px;
+                border-radius: 8px;
+            }
+            .header, .content, .footer {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">VARONMARK</div>
+            <h1>Talebiniz Alındı!</h1>
+            <p>Dijital Pazarlama Uzmanları</p>
+        </div>
+        
+        <div class="content">
+            <p>Merhaba <strong>{{name}}</strong>,</p>
+            
+            <p>Varonmark'a ulaştığınız için teşekkür ederiz! <strong>"{{title}}"</strong> talebinizi aldık ve en kısa sürede size dönüş yapacağız.</p>
+            
+            <div class="highlight-box">
+                <h3 style="margin: 0 0 10px 0; color: #7c3aed;">📋 Talebiniz İşleme Alındı</h3>
+                <p style="margin: 0; font-size: 14px;">
+                    <strong>Hizmet:</strong> {{title}}<br>
+                    <strong>E-posta:</strong> {{email}}
+                </p>
+            </div>
+            
+            <p>Uzman ekibimiz talebinizi inceleyecek ve size özel çözümler sunacaktır. Genellikle 24 saat içinde size detaylı bir yanıt gönderiyoruz.</p>
+            
+            <div class="contact-info">
+                <h4 style="margin: 0 0 10px 0; color: #7c3aed;">📞 Acil Durumda İletişim</h4>
+                <p style="margin: 0; font-size: 14px;">
+                    <strong>Telefon:</strong> +90 530 562 91 26<br>
+                    <strong>E-posta:</strong> info@varonmark.com
+                </p>
+            </div>
+            
+            <div class="divider">
+                <p style="margin: 0; font-size: 14px;">
+                    Saygılarımızla,<br>
+                    <strong>Varonmark Ekibi</strong>
+                </p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>Varonmark</strong> - Dijital Pazarlama Uzmanları</p>
+            <p>Etsy • Trendyol • Sosyal Medya • Reklamcılık</p>
+            <p>📧 info@varonmark.com | 📞 +90 530 562 91 26</p>
+        </div>
+    </div>
+</body>
+</html> 

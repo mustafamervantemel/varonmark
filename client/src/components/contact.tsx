@@ -6,12 +6,11 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { useToast } from "@/hooks/use-toast";
 import { useMutation } from "@tanstack/react-query";
-import { apiRequest } from "@/lib/queryClient";
+import { toast } from "@/hooks/use-toast";
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
-  const { toast } = useToast();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -20,15 +19,68 @@ export default function Contact() {
     message: ""
   });
 
-  const submitMutation = useMutation({
-    mutationFn: async (data: typeof formData) => {
-      return await apiRequest("POST", "/api/contacts", data);
-    },
-    onSuccess: () => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleInputChange = (field: string, value: string) => {
+    setFormData(prev => ({
+      ...prev,
+      [field]: value
+    }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    
+    if (!formData.name || !formData.email) {
+      toast({
+        title: "Hata",
+        description: "Ad ve email alanları zorunludur.",
+        variant: "destructive",
+      });
+      return;
+    }
+
+    setIsSubmitting(true);
+
+    try {
+      // Ana bildirim için template parametreleri
+      const notificationParams = {
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        service: formData.service,
+        message: formData.message,
+        time: new Date().toLocaleString('tr-TR')
+      };
+
+      // Müşteriye otomatik yanıt için template parametreleri
+      const autoReplyParams = {
+        name: formData.name,
+        title: formData.service || "Genel Danışmanlık Talebi",
+        email: formData.email
+      };
+
+      // Ana bildirim gönder
+      await emailjs.send(
+        'Ad2Y1NjtyFoHerY3A', // Service ID (Public Key)
+        'template_0q1xh9y', // Template ID - Size giden bildirim
+        notificationParams,
+        'Ad2Y1NjtyFoHerY3A' // Public Key
+      );
+
+      // Müşteriye otomatik yanıt gönder
+      await emailjs.send(
+        'Ad2Y1NjtyFoHerY3A', // Service ID (Public Key)
+        'template_cmhrwjg', // Template ID - Müşteriye giden auto-reply
+        autoReplyParams,
+        'Ad2Y1NjtyFoHerY3A' // Public Key
+      );
+
       toast({
         title: "Başarılı!",
-        description: "Mesajınız başarıyla gönderildi. En kısa sürede size geri dönüş yapacağız."
+        description: "Mesajınız başarıyla gönderildi. En kısa sürede size dönüş yapacağız.",
       });
+
       setFormData({
         name: "",
         email: "",
@@ -36,34 +88,16 @@ export default function Contact() {
         service: "",
         message: ""
       });
-    },
-    onError: () => {
+    } catch (error) {
+      console.error('EmailJS Error:', error);
       toast({
-        title: "Hata!",
-        description: "Mesajınız gönderilemedi. Lütfen tekrar deneyiniz.",
-        variant: "destructive"
+        title: "Hata",
+        description: "Mesaj gönderilirken bir hata oluştu. Lütfen tekrar deneyin.",
+        variant: "destructive",
       });
+    } finally {
+      setIsSubmitting(false);
     }
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!formData.name || !formData.email) {
-      toast({
-        title: "Hata!",
-        description: "Lütfen gerekli alanları doldurunuz.",
-        variant: "destructive"
-      });
-      return;
-    }
-    submitMutation.mutate(formData);
-  };
-
-  const handleInputChange = (field: string, value: string) => {
-    setFormData(prev => ({
-      ...prev,
-      [field]: value
-    }));
   };
 
   return (
@@ -107,7 +141,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="font-medium">Adres</div>
-                  <div className="text-purple-200">İstanbul, Türkiye</div>
+                  <div className="text-purple-200">İstanbul, Pendik</div>
                 </div>
               </div>
             </div>
@@ -211,9 +245,9 @@ export default function Contact() {
                 <Button 
                   type="submit" 
                   className="w-full bg-purple-600 hover:bg-purple-700 text-white py-3 rounded-lg font-semibold transition-colors"
-                  disabled={submitMutation.isPending}
+                  disabled={isSubmitting}
                 >
-                  {submitMutation.isPending ? "Gönderiliyor..." : "Ücretsiz Danışmanlık Talep Et"}
+                  {isSubmitting ? "Gönderiliyor..." : "Ücretsiz Danışmanlık Talep Et"}
                 </Button>
               </form>
             </CardContent>

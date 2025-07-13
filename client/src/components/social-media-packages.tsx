@@ -16,7 +16,7 @@ export default function SocialMediaPackages() {
               <img src="/media/icons8-instagram-3d-fluency-32.png" alt="Instagram" className="w-10 h-10 rounded-lg" />
             </div>
             <h3 className="text-2xl font-bold text-pink-800 mb-2">Sosyal Medya Kurulum Desteği</h3>
-            <div className="text-4xl font-bold text-pink-600 mb-2">800₺</div>
+            <div className="text-4xl font-bold text-pink-600 mb-2">1500₺</div>
             <div className="text-sm text-pink-500">Tek seferlik ödeme</div>
           </div>
 
@@ -104,7 +104,7 @@ export default function SocialMediaPackages() {
               <img src="/media/icons8-instagram-3d-fluency-32.png" alt="Instagram" className="w-10 h-10 rounded-lg" />
             </div>
             <h3 className="text-2xl font-bold text-purple-800 mb-2">Sosyal Medya Yönetim Desteği</h3>
-            <div className="text-4xl font-bold text-purple-600 mb-2">5.000₺</div>
+            <div className="text-4xl font-bold text-purple-600 mb-2">6.800₺</div>
             <div className="text-sm text-purple-500">Aylık ödeme</div>
           </div>
 

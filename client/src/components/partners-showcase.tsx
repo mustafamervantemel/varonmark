@@ -15,7 +15,7 @@ export default function PartnersShowcase() {
     {
       id: 1,
       brandName: "MiraGiftShop",
-      brandLogo: "/brand-logo/miragift.png",
+      brandLogo: "../../public/brand-logo/miragift.png",
       platformType: "etsy",
       platformLogo: "/media/icons8-etsy-color-32.png",
       url: "https://www.etsy.com/shop/MiraGiftShop?ref=shop-header-name&listing_id=1710484991&from_page=listing",
@@ -24,7 +24,7 @@ export default function PartnersShowcase() {
     {
       id: 2,
       brandName: "BARYADESIGN",
-      brandLogo: "/src/brand/BARYADESIGN.png",
+      brandLogo: "../../public/brand-logo/baryadesign.png",
       platformType: "etsy",
       platformLogo: "/media/icons8-etsy-color-32.png",
       url: "https://www.etsy.com/shop/BARYADESIGN?ref=shop-header-name&listing_id=1174946911&from_page=listing",
@@ -33,7 +33,7 @@ export default function PartnersShowcase() {
     {
       id: 3,
       brandName: "Popizone",
-      brandLogo: "",
+      brandLogo: "../../public/brand-logo/popizone.jpeg",
       platformType: "trendyol",
       platformLogo: "/media/trendyol.jpeg",
       url: "https://trendyol.com/magaza/fashionstore",
@@ -42,7 +42,7 @@ export default function PartnersShowcase() {
     {
       id: 4,
       brandName: "Zeysel Store",
-      brandLogo: "/src/brand/ZeyselStore.png",
+      brandLogo: "../../public/brand-logo/zeyselstore.jpeg",
       platformType: "trendyol",
       platformLogo: "/media/trendyol.jpeg",
       url: "https://www.trendyol.com/magaza/zeysel-store-m-1108376?sst=0",
@@ -51,7 +51,7 @@ export default function PartnersShowcase() {
     {
       id: 5,
       brandName: "Ada Smile Studio",
-      brandLogo: "/src/brand/AdaSmileStudio.png",
+      brandLogo: "../../public/brand-logo/adasmile.svg",
       platformType: "instagram",
       platformLogo: "/media/icons8-instagram-3d-fluency-32.png",
       url: "https://instagram.com/beautybrand",
@@ -60,7 +60,7 @@ export default function PartnersShowcase() {
     {
       id: 6,
       brandName: "Popizone",
-      brandLogo: "/src/brand/Popizone.png",
+      brandLogo: "../../public/brand-logo/popizone.jpeg",
       platformType: "instagram",
       platformLogo: "/media/icons8-instagram-3d-fluency-32.png",
       url: "https://www.instagram.com/popizone_/",
@@ -69,7 +69,7 @@ export default function PartnersShowcase() {
     {
       id: 7,
       brandName: "Ubuntu Yatırım",
-      brandLogo: "/src/brand/UbuntuYatirim.png",
+      brandLogo: "../../public/brand-logo/ubuntu.svg",
       platformType: "website",
       platformLogo: "/media/icons8-meta-windows-11-color-32.png",
       url: "https://www.ubuntuyatirim.com",

@@ -16,7 +16,7 @@ export default function EtsyPackages() {
               <img src="/media/icons8-etsy-color-32.png" alt="Etsy" className="w-10 h-10 rounded-lg" />
             </div>
             <h3 className="text-2xl font-bold text-orange-800 mb-2">Mağaza Açma Desteği</h3>
-            <div className="text-4xl font-bold text-orange-600 mb-2">800₺</div>
+            <div className="text-4xl font-bold text-orange-600 mb-2">900₺</div>
             <div className="text-sm text-orange-500">Tek seferlik ödeme</div>
           </div>
 
@@ -104,7 +104,7 @@ export default function EtsyPackages() {
               <img src="/media/icons8-etsy-color-32.png" alt="Etsy" className="w-10 h-10 rounded-lg" />
             </div>
             <h3 className="text-2xl font-bold text-purple-800 mb-2">Mağaza Yönetim Desteği</h3>
-            <div className="text-4xl font-bold text-purple-600 mb-2">5.000₺</div>
+            <div className="text-4xl font-bold text-purple-600 mb-2">7.000₺</div>
             <div className="text-sm text-purple-500">Aylık ödeme</div>
           </div>
 
